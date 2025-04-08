@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int counter = 0; 
-// Define the function first
+
 int linearSearch(int arr[], int size, int searchItem) {
     for (int i = 0, j = size - 1; i <= j; i++, j--) { 
         counter++; 
