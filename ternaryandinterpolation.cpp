@@ -27,7 +27,7 @@ int interpolationSearch(int arr[], int size, int target) {
 }
 
 int main() {
-    int arr[] = {1, 3, 5, 7, 9, 11, 13, 15, 17, 19}; 
+    int arr[] = {1, 30, 5, 7, 9, 11, 13, 15, 17, 19}; 
     int size = sizeof(arr) / sizeof(arr[0]);
     int target = 13;
 
