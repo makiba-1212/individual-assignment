@@ -14,7 +14,7 @@ void pointerBubbleSort(int* arr[], int n) {
 }
 
 int main() {
-    int values[] = {5, 2, 4, 6, 1, 3};
+    int values[] = {40, 20, 35, 10, 35};
     const int n = sizeof(values) / sizeof(values[0]);
     
     int* ptrArray[n];
