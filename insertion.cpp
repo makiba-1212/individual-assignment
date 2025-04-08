@@ -14,7 +14,7 @@ void pointerInsertionSort(int* arr[], int n) {
 }
 
 int main() {
-    int values[] = {5, 2, 4, 6, 1, 3};
+    int values[] = {40, 20, 35, 10, 35 };
     const int n = sizeof(values) / sizeof(values[0]);
     
     int* ptrArray[n];
@@ -22,17 +22,17 @@ int main() {
         ptrArray[i] = &values[i];
     }
 
-    // Sort the pointer array
+    
     pointerInsertionSort(ptrArray, n);
 
-    // Output sorted values (original array remains unchanged)
+    
     cout << "Sorted values: ";
     for (int i = 0; i < n; i++) {
         cout << *ptrArray[i] << " ";
     }
     cout << endl;
 
-    // Original array is still intact
+    
     cout << "Original array: ";
     for (int i = 0; i < n; i++) {
         cout << values[i] << " ";
